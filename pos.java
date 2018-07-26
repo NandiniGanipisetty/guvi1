@@ -9,17 +9,13 @@ class Ideone
 	{
 		Scanner sc=new Scanner(System.in);
 		int num=sc.nextInt();
-		if(num==0)
+		if(num<0)
 		{
-			System.out.println("number is neither positive nor negative");
-		}
-		else if(num<0)
-		{
-			System.out.println("number is negative");
+			System.out.println(" negative");
 		}
 		else
 		{
-			System.out.println("number is positive");
+			System.out.println(" positive");
 		}
 	}
 }
