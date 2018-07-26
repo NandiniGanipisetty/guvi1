@@ -16,7 +16,7 @@ class Ideone
 		}
 		else
 		{
-			System.out.println("ODD")
+			System.out.println("ODD");
 		}
 		
 	}
