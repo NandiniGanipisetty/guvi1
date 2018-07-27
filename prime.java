@@ -18,11 +18,11 @@ class Ideone
 			
 				if(num%i==0)
 				{
-					System.out.print("no");
+					System.out.print("No");
 				}
 				else
 				{
-					System.out.println("yes");
+					System.out.println("Yes");
 				}
 	
 		
