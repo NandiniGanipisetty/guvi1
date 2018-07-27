@@ -13,11 +13,11 @@ class Ideone
 		int n=sc.nextInt();
 		if(n%4==0&&n%100!=0)
 		{
-			System.out.println("leapyear");
+			System.out.println("yes");
 		}
 		else
 		{
-			System.out.println("not a leapyear");
+			System.out.println("no");
 		}
 	}
 }
