@@ -12,7 +12,7 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		int sum=0,rev;
 		int n=sc.nextInt();
-		System.out.println("Input:\n"+n);
+		System.out.println("Input:\n" +n);
 		int temp=n;
 		while(n>0)
 		{
@@ -24,11 +24,11 @@ class Ideone
 		{
 		
 		
-			System.out.println("yes");
+			System.out.println("\n" "yes");
 		}
 		else
 		{
-			System.out.println("no");
+			System.out.println("\n" "no");
 		}
 		
 	}
