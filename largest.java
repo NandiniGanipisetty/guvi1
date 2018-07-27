@@ -16,7 +16,7 @@ class Ideone
 		int b=sc.nextInt();
 		int c=sc.nextInt();
 		d = c > (a > b ? a : b) ? c : ((a > b) ? a : b);
-		System.out.println(""+d);
+		System.out.println("\n"+d);
 		
 	}
 }
