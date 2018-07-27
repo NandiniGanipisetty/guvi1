@@ -11,7 +11,7 @@ class Ideone
 	{
 		Scanner sc=new Scanner(System.in);
 		char c=sc.next().charAt(0);
-		System.out.println("entered thing is" +c);
+		System.out.println("Input:\n" +c);
 		if((c>='a'&&c<='z')||(c>='A'&&c<='Z'))
 		{
 			System.out.println("Alphabet:\n" +c);
