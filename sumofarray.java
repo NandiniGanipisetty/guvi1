@@ -21,7 +21,7 @@ class Ideone
 		{
 			sum=sum+a[i];
 		}
-		System.out.println("Output:");
+		System.out.println("Output:\n");
 		System.out.println(""+sum);
 		
 	}
