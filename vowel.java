@@ -9,14 +9,14 @@ class Ideone
 	{
 		Scanner sc=new Scanner(System.in);
 		char d=sc.next().charAt(0);
-		System.out.println("enter the  alphabet" +d);
+		System.out.println("Input:\n" +d);
 		if(d=='a'||d=='e'||d=='i'||d=='o'||d=='u')
 		{
-			System.out.println("the entered element is an vowel:" +d);
+			System.out.println("Vowel:" +d);
 		}
 		else
 		{
-			System.out.println("The entered element is a consonant:" +d);
+			System.out.println(" Consonant:" +d);
 		}
 	}
 }
