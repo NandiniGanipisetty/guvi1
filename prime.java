@@ -12,17 +12,18 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		int num,i=2;
 		num=sc.nextInt();
-		System.out.println("Input:\n"+num);
+		System.out.println("Input:\n");
+		System.out.println(+num);
 		
 			
 			
 				if(num%i==0)
 				{
-					System.out.print("No");
+					System.out.print("no");
 				}
 				else
 				{
-					System.out.println("Yes");
+					System.out.println("yes");
 				}
 	
 		
