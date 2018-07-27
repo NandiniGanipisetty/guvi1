@@ -11,7 +11,6 @@ class Ideone
 	{
 		int d;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Input:\n");
 		int a=sc.nextInt();
 		int b=sc.nextInt();
 		int c=sc.nextInt();
