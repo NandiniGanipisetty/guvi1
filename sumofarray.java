@@ -10,8 +10,6 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 	Scanner in=new Scanner(System.in);	
-		
-	System.out.println("Input :");
 		int N=in.nextInt();
 		int K=in.nextInt();
 		int sum=0;
@@ -23,7 +21,7 @@ class Ideone
 		{
 			sum=sum+a[i];
 		}
-		System.out.println("Output :");
+		System.out.println("Output:");
 		System.out.println(""+sum);
 		
 	}
