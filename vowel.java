@@ -7,17 +7,16 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		String s={"a","e","i","o","u"};
 		Scanner sc=new Scanner(System.in);
-		String d=sc.nextString();
-		System.out.println("enter the  alphabet"+d);
-		if(d==s)
+		char d=sc.next().charAt(0);
+		System.out.println("enter the  alphabet" +d);
+		if(d=='a'||d=='e'||d=='i'||d=='o'||d=='u')
 		{
-			System.out.println("the entered element is an vowel:"+d);
+			System.out.println("the entered element is an vowel:" +d);
 		}
 		else
 		{
-			System.out.println("The entered element is a consonant:"+d);
+			System.out.println("The entered element is a consonant:" +d);
 		}
 	}
 }
