@@ -12,13 +12,15 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		int p=sc.nextInt();
 		int q=sc.nextInt();
+		System.out.println("Input:");
+		System.out.println(p+ " " +q);
 		//System.out.println(+p);
 		//System.out.println(+q);
 		for(p=p+1;p<=q;p++)
 		{
 			if(p%2!=0)
 			{
-				System.out.println(" "+p);
+				System.out.print(" "+p);
 			}
 		}
 	}
