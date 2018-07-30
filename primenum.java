@@ -9,12 +9,16 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int p=1,q=6;
-		for(p=p+1;p<q;p++)
+		Scanner sc=new Scanner(System.in);
+		int p=sc.nextInt();
+		int q=sc.nextInt();
+		//System.out.println(+p);
+		//System.out.println(+q);
+		for(p=p+1;p<=q;p++)
 		{
 			if(p%2!=0)
 			{
-				System.out.print(" "+p);
+				System.out.println(" "+p);
 			}
 		}
 	}
