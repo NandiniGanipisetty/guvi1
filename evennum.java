@@ -20,7 +20,7 @@ class Ideone
 		{
 			if(p%2==0)
 			{
-				System.out.print(" "+p);
+				System.out.println("ExpectedOutput:\n "+p);
 			}
 		}
 	}
