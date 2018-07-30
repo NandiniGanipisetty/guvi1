@@ -12,7 +12,7 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		int p=sc.nextInt();
 		int q=sc.nextInt();
-		System.out.println("Input:");
+		System.out.println("Input:\n");
 		System.out.println(p+ " " +q);
 		//System.out.println(+p);
 		//System.out.println(+q);
