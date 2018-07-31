@@ -13,7 +13,7 @@ class Ideone
 		int a[]=new int[10];
 		int n,i=0;
 		n=sc.nextInt();
-		System.out.println(""+n);
+		System.out.println("Input:" +n);
 		for( i=0;i<n;i++)
 		{
 			a[i]=sc.nextInt();
