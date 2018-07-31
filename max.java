@@ -17,7 +17,6 @@ class Ideone
 		{
 			a[i]=a[i]+1;
 			a[i]=sc.nextInt();
-			System.out.print("   "+a[i]);
 		}
 		int max=a[0];
 		for(i=0;i<n;i++)
@@ -27,7 +26,6 @@ class Ideone
 				max=a[i];
 			}
 		}
-			System.out.println();
 			System.out.println("  "+max);
 		
 	}
