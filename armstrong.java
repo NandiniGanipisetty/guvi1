@@ -35,7 +35,7 @@ class Ideone
 					{
 					System.out.println(" ");
 						System.out.println(i);
-					}m++
+					}m++;
 	                    	}
 	                    
 		          count=0;
