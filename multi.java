@@ -11,7 +11,9 @@ class Ideone
 	{
 		int fact=1,i=1,n;
 		Scanner sc=new Scanner(System.in);
+		System.out.print("Input:\n");
 		n=sc.nextInt();
+		System.out.println(n);
 		for(i=1;i<=n;i++)
 		{
 			fact=i*n;
