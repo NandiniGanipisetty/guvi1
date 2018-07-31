@@ -14,13 +14,13 @@ class Ideone
 		int a[]=new int[10];
 		int n,i=0,j;
 		n=sc.nextInt();
-		System.out.println("Input:");
-		System.out.println(" "+n);
+		System.out.println("Input:"+n);
+	//	System.out.println(" "+n);
 		for( i=0;i<n;i++)
 		{
 			a[i]=sc.nextInt();
 		//	System.out.println();
-			System.out.print(a[i]+" ");
+			System.out.println(a[i]+"");
 		}
 		int temp=a[0];
 		for(i=0;i<n;i++)
