@@ -18,7 +18,7 @@ class Ideone
 		}
 		for(int i=0;i<n;i++)
 		{
-			System.out.println("\n"+a[i]+" "+i);
+			System.out.println("\/n"+a[i]+" "+i);
 		}
 	}
 }
