@@ -4,7 +4,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-/* Name of the class has to be "Main" only if the class is public. */
+/* Name of the class has to be "Main" only if the class is public. *
 
 
 /* Name of the class has to be "Main" only if the class is public. */
@@ -19,7 +19,7 @@ class Ideone
 		for(int i=0;i<count-1;i++)
 		{
 			n3=n1+n2;
-			System.out.println(+n3);
+			System.out.println("  "+n3);
 			n1=n2;
 			n2=n3;
 		}
