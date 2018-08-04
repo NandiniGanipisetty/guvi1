@@ -11,12 +11,12 @@ class Ideone
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		int a=sc.nextInt();
-		int b=sc.nextInt();
+		int k=sc.nextInt();
+		int j=sc.nextInt();
 		int temp;
-		temp=a;
-		a=b;
-		b=temp;
-		System.out.println(a+" "+b);
+		temp=k;
+		k=j;
+		j=temp;
+		System.out.println(k+" "+j);
 	}
 }
