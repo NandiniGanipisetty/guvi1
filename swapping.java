@@ -13,10 +13,10 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		int k=sc.nextInt();
 		int j=sc.nextInt();
-		int temp;
-		temp=k;
+		int i;
+		i=k;
 		k=j;
-		j=temp;
+		j=i;
 		System.out.println(k+" "+j);
 	}
 }
