@@ -12,17 +12,19 @@ import java.util.Scanner;
 		{
 			for(j=0;j<special.length();j++)
 			{
-				if(str.charAt(i)==special.charAt(j))
+			
+				 if(str.charAt(i)==special.charAt(j))
 				{
 					count++;
 				}
+			
 			}
 		}
 		System.out.println(" "+count);
 	}
 
 	public static void main(String[] args) {
-		fun(" !\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~");
+		fun(" !\"#$%&'()*+,-./:;<=>?@[\\]^`{|}~");
 		
 
 	}
