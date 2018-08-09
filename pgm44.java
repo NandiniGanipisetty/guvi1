@@ -13,7 +13,7 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		int num;
 		num=sc.nextInt();
-		if(num<10)
+		if(num>0&&num<10)
 		{
 			System.out.println("yes");
 		}
