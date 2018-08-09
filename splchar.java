@@ -20,7 +20,7 @@ import java.util.Scanner;
 			
 			}
 		}
-		System.out.println(" "+count);
+		System.out.println(""+count);
 	}
 
 	public static void main(String[] args) {
