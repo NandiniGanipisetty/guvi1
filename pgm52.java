@@ -17,25 +17,25 @@ class Ideone
 	
 			switch(choice)
 			{
-				case 1:System.out.println("one");
+				case 1:System.out.println("One");
 						break;
-				case 2:System.out.println("two");
+				case 2:System.out.println("Two");
 						break;
-				case 3:System.out.println("three");
+				case 3:System.out.println("Three");
 						break;
-				case 4:System.out.println("four");
+				case 4:System.out.println("Four");
 						break;
-				case 5:System.out.println("five");
+				case 5:System.out.println("Five");
 						break;
-				case 6:System.out.println("six");
+				case 6:System.out.println("Six");
 						break;
-				case 7:System.out.println("seven");
+				case 7:System.out.println("Seven");
 						break;
-				case 8:System.out.println("eight");
+				case 8:System.out.println("Eight");
 						break;
-				case 9:System.out.println("nine");
+				case 9:System.out.println("Nine");
 						break;
-				case 10:System.out.println("ten");
+				case 10:System.out.println("Ten");
 						break;
 						default:System.out.println("Invalid");
 			}
