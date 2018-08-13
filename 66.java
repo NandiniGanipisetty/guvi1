@@ -15,16 +15,16 @@ class Ideone
 		n=sc.nextInt();
 		if(n==2)
 		{
-			System.out.println("prime");
+			System.out.println("yes");
 		}
 			if(n%i==0)
 			{
 
-				System.out.println("not prime");
+				System.out.println("no");
 			}
 			else
 			{
-				System.out.println("prime");
+				System.out.println("yes");
 			}
 			
 		
