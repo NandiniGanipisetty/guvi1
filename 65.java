@@ -10,7 +10,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-	if(System.out.append("hello world \n").equals(null)){}
+	if(System.out.append("hello world").equals(null)){}
 		
 	}
 }
