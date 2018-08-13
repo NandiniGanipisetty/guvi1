@@ -13,6 +13,10 @@ class Ideone
 		int n,i=2;
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
+		if(n==2)
+		{
+			System.out.println("prime");
+		}
 			if(n%i==0)
 			{
 
