@@ -22,11 +22,11 @@ class e55
 		s=c+b;	
 		if(s==2)
 			{
-				System.out.println("YES");
+				System.out.println("Yes");
 			}
 			else
 			{
-				System.out.println("NO");
+				System.out.println("No");
 			}
 		
 	}
