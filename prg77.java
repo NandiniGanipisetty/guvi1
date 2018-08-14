@@ -1,6 +1,6 @@
 import java.util.Scanner;
  
- class Ideone 
+ class Ideone1
  {
 	
 	public static void main(String[] args) 
