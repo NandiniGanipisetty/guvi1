@@ -7,17 +7,17 @@ class Main
        int n=s.nextInt();
        int l=s.nextInt();
        int r=s.nextInt();
-       int count=0;
+       int found=0;
        for(int i=l+1;i<r;i++)
        {
-           int c=i++;
-           if(c==n)
+           int k=i++;
+           if(k==n)
            {
-               count++;
+               found++;
                System.out.println("yes");
            }
        }
-       if(count==0)
+       if(found==0)
        {
            System.out.println("no");
        }
