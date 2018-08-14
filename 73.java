@@ -1,25 +1,19 @@
 import java.util.*;
-class Main 
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
 {
-    public static void main(String args[])
-    {
-       Scanner s=new Scanner(System.in);
-       int n=s.nextInt();
-       int l=s.nextInt();
-       int r=s.nextInt();
-       int found=0;
-       for(int i=l+1;i<r;i++)
-       {
-           int k=i++;
-           if(k==n)
-           {
-               found++;
-               System.out.println("yes");
-           }
-       }
-       if(found==0)
-       {
-           System.out.println("no");
-       }
-    }
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		if(a<n&&b>n)
+		System.out.print("Yes");
+		else
+		System.out.print("No");
+	}
 }
