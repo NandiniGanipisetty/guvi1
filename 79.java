@@ -13,7 +13,7 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int m=sc.nextInt();
-		if((n*m)/n==n||(n*m)/n==n)
+		if((n*m)/n==m&&(n*m)/n==m)
 		{
 			System.out.println("yes");
 		}
