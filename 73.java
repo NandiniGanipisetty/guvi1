@@ -12,8 +12,8 @@ class Ideone
 		int a=sc.nextInt();
 		int b=sc.nextInt();
 		if(a<n&&b>n)
-		System.out.print("Yes");
+		System.out.print("yes");
 		else
-		System.out.print("No");
+		System.out.print("no");
 	}
 }
