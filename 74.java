@@ -6,8 +6,7 @@ import java.util.ArrayList;
         float d;
         Scanner s=new Scanner(System.in);
         d=s.nextFloat();
-      int v=  Math.round(d);
-      System.out.println(v);
+      	System.out.print((int)Math.ceil(d));
   
 }
     }
