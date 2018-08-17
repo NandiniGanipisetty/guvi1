@@ -17,6 +17,6 @@ class Ideone122
 		
 		}
 		for(int k=str.length()-1;k>=0;k--)
-		System.out.print(ch[k]);
+		System.out.print(" "+ch[k]);
 	}
 }
