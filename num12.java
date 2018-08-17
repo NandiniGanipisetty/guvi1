@@ -19,12 +19,6 @@ class Ideone
 		{
 			a[i]=sc.nextInt();
 		}
-		for(i=0;i<n;i++)
-		{
-			if(a[i]==m)
-			break;
-		}
-		System.out.println(m);
-		
+		System.out.println(a[m-1]);
 	}
 }
