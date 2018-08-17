@@ -1,22 +1,24 @@
+/* package whatever; // don't place package name! */
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-class Ideone122
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone121
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Scanner s=new Scanner(System.in);
-		String str=s.next();
-		int n=s.nextInt();
-		char ch[]=new char[str.length()];int j=0;
-		for(int i=str.length()-1;n!=0;i--)
-		{
+		// your code goes here
+		String str;
+		Scanner sc=new Scanner(System.in);
+		str=sc.next();
+		int n,m;
+		m=sc.nextInt();
+		n=str.length();
+		for(int i=(n-m);i<n;i++){
+			System.out.print(str.charAt(i));
 			
-			ch[j++]=str.charAt(i);
-			n--;
-		
 		}
-		for(int k=str.length()-1;k>=0;k--)
-		System.out.print(" "+ch[k]);
 	}
 }
