@@ -1,24 +1,30 @@
 import java.util.*;
- class print12 {
-  public static void main(String[]args){
-	  int a,i,j,count=0;
-	  Scanner sc=new Scanner(System.in);
-	  a=sc.nextInt();
-	  
-	  int b[]=new int[a];
-  for(i=0;i<a;i++){
-	  b[i]=sc.nextInt();
-  }
-  for(i=0;i<a;i++){
-		for(j=i+1;j<a;j++){ 
-			count++;
-			if(((1+b[i])!=b[j] && count>2)){
-				System.out.println(b[j]-1);
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner in=new Scanner(System.in);
+		int n=in.nextInt();
+		int a[]=new int[n];
+		for(int i=0;i<n;i++){
+			a[i]=in.nextInt();
+		}
+		int p=0,c=0;
+		for(int i=0;i<n;i++){
+			for(int j=i+1;j<n;j++){
+				if(a[i]>a[j]){
+					p=i;
+					c=1;
+				}
 			}
-			i++;
-			}
-		break;
-	  
-  }
-  }
+		}
+		if(c==0)
+		System.out.print(n/2);
+		else
+		System.out.print(p+1);
+	}
 }
