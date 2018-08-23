@@ -13,7 +13,7 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		int reverse=0;
 		int a=sc.nextInt();
-		while(a!=0)//423
+		while(a>0)//423
 		{
 		
 			int b=a%10;
