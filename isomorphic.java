@@ -1,7 +1,7 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-class Isomorphic6
+class isoideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
