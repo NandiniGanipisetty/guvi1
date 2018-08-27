@@ -14,8 +14,9 @@ class isoideone
 		{
 			if(s1.charAt(i)==s1.charAt(i+1)||s2.charAt(i)==s2.charAt(i+1))
 			{
-				count=1;
-			}
+				count=1; 
+			} 
+			
 		}
 		if(count==1)
 		{
